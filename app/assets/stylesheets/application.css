@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+ body{
+    
+    background: url("https://mcdn.wallpapersafari.com/medium/42/88/hwurGg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: black;
+
+}
