@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  i_d: 1
+  name: MyString
+  grade: MyString
+  user: one
+
+two:
+  i_d: 1
+  name: MyString
+  grade: MyString
+  user: two

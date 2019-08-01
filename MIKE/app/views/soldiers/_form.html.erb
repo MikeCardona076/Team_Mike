@@ -1,0 +1,34 @@
+<%= form_with(model: soldier, local: true) do |form| %>
+  <% if soldier.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(soldier.errors.count, "error") %> prohibited this soldier from being saved:</h2>
+
+      <ul>
+      <% soldier.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :i_d %>
+    <%= form.number_field :i_d %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :grade %>
+    <%= form.text_field :grade %>
+  </div>
+
+
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
