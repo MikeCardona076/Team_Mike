@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+body{
+    background: black;
+    color: green;
+    font-size: 20;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://i11b.3djuegos.com/juegos/15649/super_smash_bros_switch/fotos/maestras/super_smash_bros_switch-4833873.jpg");
+}
