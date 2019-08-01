@@ -1,2 +1,0 @@
-class Barrack < ApplicationRecord
-end

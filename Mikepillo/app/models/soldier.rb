@@ -1,2 +1,0 @@
-class Soldier < ApplicationRecord
-end
