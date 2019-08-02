@@ -1,0 +1,32 @@
+<%= form_with(model: barrack, local: true) do |form| %>
+  <% if barrack.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(barrack.errors.count, "error") %> prohibited this barrack from being saved:</h2>
+
+      <ul>
+      <% barrack.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :i_d %>
+    <%= form.number_field :i_d %>
+  </div>
+
+  <div class="field">
+    <%= form.label :name_barrack %>
+    <%= form.text_field :name_barrack %>
+  </div>
+
+  <div class="field">
+    <%= form.label :location %>
+    <%= form.text_field :location %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

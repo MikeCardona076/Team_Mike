@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  i_d: 1
+  service: MyText
+
+two:
+  i_d: 1
+  service: MyText

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>I d:</strong>
+  <%= @barrack.i_d %>
+</p>
+
+<p>
+  <strong>Name barrack:</strong>
+  <%= @barrack.name_barrack %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @barrack.location %>
+</p>
+
+<%= link_to 'Edit', edit_barrack_path(@barrack) %> |
+<%= link_to 'Back', barracks_path %>
