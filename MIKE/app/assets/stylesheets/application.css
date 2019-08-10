@@ -6,7 +6,7 @@
  * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSSsasalome
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
@@ -16,6 +16,9 @@
 
  body
  {
+    /*Esto es la imagen de fondo, se utilizaron estos recursos, ya que la imagen se repetía 
+    y no abarcaba toda la panta*/
+
     background-image: url("https://imagescdn.tweaktown.com/news/6/2/62716_11_tencent-publish-call-duty-mobile-china.jpg");
     background-size:100% 100%;
     background-position: center center;

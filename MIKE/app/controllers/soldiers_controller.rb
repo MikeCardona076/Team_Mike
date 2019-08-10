@@ -27,6 +27,9 @@ class SoldiersController < ApplicationController
   def create
     @soldier = Soldier.new(soldier_params)
     @soldier.user = current_user
+   
+  
+
   
     respond_to do |format|
       if @soldier.save

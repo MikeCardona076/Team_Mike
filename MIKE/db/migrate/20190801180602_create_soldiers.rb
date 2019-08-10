@@ -5,8 +5,9 @@ class CreateSoldiers < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :grade
       t.references :user, foreign_key: true
-
+    
       t.timestamps
+   
     end
   end
 end
